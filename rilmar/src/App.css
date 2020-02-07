@@ -1,10 +1,14 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+  margin-left: -1150px;
+  margin-top: -500px;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(52, 70, 170);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+ 
+.nombre {
+  margin-left: -200px;
+  margin-inline-end: 90px;
+  
+}
+
+.apellido{
+
+  margin-top: 9000px;
 }
